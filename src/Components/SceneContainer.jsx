@@ -3,6 +3,7 @@ import {
   PerspectiveCamera,
   Environment,
   Float,
+  Loader,
 } from "@react-three/drei";
 import {
   EffectComposer,
@@ -108,6 +109,7 @@ export default function SceneContainer() {
           blur={true}
         />
       </EffectComposer>
+      <Loader />
     </Suspense>
   );
 }
